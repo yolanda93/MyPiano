@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>PhoneApp1.dll</File>
+    <File>ApplicationIcon.png</File>
+    <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\ApplicationIcon.png</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>Assets\Tiles\FlipCycleTileLarge.png</File>
+    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
+    <File>Assets\Tiles\FlipCycleTileSmall.png</File>
+    <File>Assets\Tiles\IconicTileMediumLarge.png</File>
+    <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>Background.png</File>
+    <File>piano_mano_background.png</File>
+    <File>Sonidos\do alto.wav</File>
+    <File>Sonidos\do sostenido.wav</File>
+    <File>Sonidos\do.wav</File>
+    <File>Sonidos\fa sostenido.wav</File>
+    <File>Sonidos\fa.wav</File>
+    <File>Sonidos\la sostenido.wav</File>
+    <File>Sonidos\la.wav</File>
+    <File>Sonidos\mi.wav</File>
+    <File>Sonidos\re sostenido.wav</File>
+    <File>Sonidos\re.wav</File>
+    <File>Sonidos\si.wav</File>
+    <File>Sonidos\sol sostenido.wav</File>
+    <File>Sonidos\sol.wav</File>
+    <File>AppManifest.xaml</File>
+    <File>Piano-Wallpaper-music-24173627-1920-1200.png</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YOLANDA-HP</Machine>
+    <WindowsUser>yolanda</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>e58316b8-70fa-4f8d-a53e-37586d670a34</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\ARM\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\ARM\Release\PhoneApp1.dll">
+      <PackagePath>PhoneApp1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\ApplicationIcon.png">
+      <PackagePath>ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Background.png">
+      <PackagePath>Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Piano-Wallpaper-music-24173627-1920-1200.png">
+      <PackagePath>Piano-Wallpaper-music-24173627-1920-1200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\piano_mano_background.png">
+      <PackagePath>piano_mano_background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\do alto.wav">
+      <PackagePath>Sonidos\do alto.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\do sostenido.wav">
+      <PackagePath>Sonidos\do sostenido.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\do.wav">
+      <PackagePath>Sonidos\do.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\fa sostenido.wav">
+      <PackagePath>Sonidos\fa sostenido.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\fa.wav">
+      <PackagePath>Sonidos\fa.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\la sostenido.wav">
+      <PackagePath>Sonidos\la sostenido.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\la.wav">
+      <PackagePath>Sonidos\la.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\mi.wav">
+      <PackagePath>Sonidos\mi.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\re sostenido.wav">
+      <PackagePath>Sonidos\re sostenido.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\re.wav">
+      <PackagePath>Sonidos\re.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\si.wav">
+      <PackagePath>Sonidos\si.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\sol sostenido.wav">
+      <PackagePath>Sonidos\sol sostenido.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Sonidos\sol.wav">
+      <PackagePath>Sonidos\sol.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yolanda\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="3.3" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="http://go.microsoft.com/fwlink/?LinkID=246599&amp;amp;clcid=0x409" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="yolanda93" APP_NAME="d25f733f-b9a6-4059-ad67-66878b2336b3" APP_VERSION="1.0.0.0" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="3082" VALIDATION_TYPE="UI" ReportGenerationTime="16/08/2014 11:45:43" ID="ff4d7ab6909febbc46a4ffbaca826484">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Prueba de instalación limpia y reversible" RATIONALE="Las instalaciones limpias y reversibles permiten a los usuarios administrar (implementar y quitar) correctamente las aplicaciones de su sistema." />
+    <REQUIREMENT NUMBER="2" TITLE="Prueba de instalación en carpetas correctas" RATIONALE="Windows proporciona ubicaciones específicas en el sistema de archivos para almacenar programas y componentes de software, datos de aplicaciones compartidas y datos de aplicaciones específicos de un usuario." />
+    <REQUIREMENT NUMBER="3" TITLE="Prueba de archivos firmados digitalmente" RATIONALE="Las firmas digitales con Authenticode permiten a los usuarios tener la certeza de que el software es original. También permiten detectar si se ha alterado un archivo; por ejemplo, si está infectado con un virus." />
+    <REQUIREMENT NUMBER="4" TITLE="Prueba de compatibilidad de Windows x64" RATIONALE="Para mantener la compatibilidad con las versiones de 64 bits de Windows, es necesario que las aplicaciones admitan de forma nativa 64 bits o, como mínimo, que las aplicaciones para Windows de 32 bits funcionen perfectamente en 64 bits." />
+    <REQUIREMENT NUMBER="5" TITLE="Prueba de comprobación de la versión del SO" RATIONALE="Las aplicaciones no deben realizar comprobaciones de coincidencia de versiones (== 5.1). Si necesita una característica concreta, compruebe si está disponible. Si necesita Windows XP, busque Windows XP, o una versión posterior (&gt;= 5.1), De esta forma, su código de detección seguirá funcionando en las futuras versiones de Windows. Los instaladores de controladores y los módulos de desinstalación no deben comprobar la versión de SO." />
+    <REQUIREMENT NUMBER="6" TITLE="Prueba de control de cuentas de usuario (UAC)" RATIONALE="La mayoría de las aplicaciones no requieren privilegios de administrador en tiempo de ejecución y debe ser posible ejecutarlas como usuario estándar. Las aplicaciones de Windows deben tener un manifiesto (incrustado o externo) para definar su nivel de ejecución y que indique al sistema operativo los privilegios necesarios para ejecutar la aplicación." />
+    <REQUIREMENT NUMBER="7" TITLE="Ajustarse a mensajes de Administrador de reinicio del sistema" RATIONALE="En un apagado crítico, las aplicaciones que devuelvan FALSE a WM_QUERYENDSESSION se enviarán WM_ENDSESSION y se cerrarán, mientras que aquellas que superen el tiempo de espera en respuesta a WM_QUERYENDSESSION se terminarán." />
+    <REQUIREMENT NUMBER="8" TITLE="Prueba en modo seguro" RATIONALE="De manera predeterminada, la mayoría de los controladores y servicios que no vinieron preinstalados con Windows no se inician en modo seguro. Deben permanecer deshabilitadas, a menos que sean necesarias para operaciones básicas del sistema o con fines de diagnóstico y recuperación." />
+    <REQUIREMENT NUMBER="9" TITLE="Prueba de sesiones multiusuario" RATIONALE="Los usuarios de Windows deben poder ejecutar sesiones simultáneas sin interrupciones ni conflictos. Las aplicaciones deben garantizar que cuando se ejecutan en varias sesiones, locales o remotas, la funcionalidad normal de la aplicación no resulta afectada. La configuración y los archivos de datos de las aplicaciones no deben persistir de un usuario a otro. La privacidad y preferencias de un usuario deben aislarse a la sesión del usuario." />
+    <REQUIREMENT NUMBER="10" TITLE="Prueba de bloqueos y errores por los que Windows deja de responder" RATIONALE="Los errores de las aplicaciones, como bloqueos y cuelgues, son un trastorno importante para los usuarios y causan frustración. La eliminación de dichos errores mejora la estabilidad y confiabilidad de las aplicaciones, y en general, proporciona a los usuariuos una mejor experiencia de las aplicaciones." />
+    <REQUIREMENT NUMBER="11" TITLE="Prueba de compatibilidad y resistencia" RATIONALE="Cuando Windows detecta que una aplicación ha funcionado de forma incompatible, aplica una corrección de compatibilidad que hace que la aplicación se compote correctamente, lo que garantiza una experiencia positiva del usuario. Las aplicaciones no deben confiar en este comportamiento, ya que sólo se proporciona para que las aplicaciones heredades funcionen correctamente en Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="Prueba de conformidad del paquete" RATIONALE="Al manifiesto del paquete le faltaban uno o varios atributos requeridos.">
+      <TEST INDEX="77" NAME="Recuento de aplicaciones" DESCRIPTION="Un paquete no debe definir más de una aplicación en el manifiesto." EXECUTIONTIME="00h:00m:01s.48ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="31" NAME="Manifiesto de aplicación" DESCRIPTION="El manifiesto de aplicaciones debe incluir entradas válidas en todos los campos obligatorios." EXECUTIONTIME="00h:00m:04s.52ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Prueba de prácticas recomendadas de seguridad de Windows" RATIONALE="Ninguna aplicación debe cambiar la configuración de seguridad predeterminada de Windows." />
+    <REQUIREMENT NUMBER="14" TITLE="Prueba de características de seguridad de Windows" RATIONALE="Las aplicaciones debe elegir las características de seguridad de Windows.">
+      <TEST INDEX="33" NAME="Analizador de archivos binarios" DESCRIPTION="Análisis de las características de seguridad habilitadas en archivos binarios" EXECUTIONTIME="00h:00m:04s.13ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Firma de código privado" DESCRIPTION="La aplicación no debe empaquetar archivos clave de firma de código privado." EXECUTIONTIME="00h:00m:02s.40ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Prueba de API compatible" RATIONALE="La aplicación sólo debe hacer referencia a las API que permite Windows SDK para aplicaciones de la Tienda Windows.">
+      <TEST INDEX="72" NAME="API compatibles" DESCRIPTION="La aplicación de Windows Phone solo debe usar las API admitidas de la plataforma." EXECUTIONTIME="00h:00m:03s.99ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Prueba de rendimiento" RATIONALE="La aplicación debe tener una experiencia de inicio y suspensión rápida y que responda, y al mismo tiempo, consumir una cantidad razonable de recursos del sistema (CPU, E/S de archivos, memoria, etc.) para permitir el cambio rápido y la multitarea entre aplicaciones anteriormente sin abrir." />
+    <REQUIREMENT NUMBER="19" TITLE="Prueba de recursos de manifiesto de aplicación" RATIONALE="El manifiesto del paquete de la aplicación debería tener recursos válidos definidos en el archivo resources.pri, en función de la especificación de paquetes de la aplicación y el esquema del manifiesto de la aplicación.">
+      <TEST INDEX="61" NAME="Validación de marca" DESCRIPTION="La aplicación no debe usar las imágenes predeterminadas empaquetadas por los ejemplos de Windows SDK o Visual Studio." EXECUTIONTIME="00h:00m:11s.16ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Prueba de configuración Depurar" RATIONALE="La Aplicación no debe instalar binarios de depuración.">
+      <TEST INDEX="46" NAME="Configuración Depurar" DESCRIPTION="La Aplicación no debe instalar archivos binarios de depuración." EXECUTIONTIME="00h:00m:03s.44ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="Prueba de codificación de archivos" RATIONALE="Los paquetes que contienen una aplicación de la Tienda Windows HTML5 deben tener la codificación de archivos correcta." />
+    <REQUIREMENT NUMBER="22" TITLE="Prueba de característica de Direct3D" RATIONALE="La aplicación debe usar la característica de Direct3D correctamente." />
+    <REQUIREMENT NUMBER="23" TITLE="Prueba de capacidades de la aplicación" RATIONALE="Durante el proceso de implementación, tendrá que proporcionar justificaciones para los paquetes que usan capacidades especiales." />
+    <REQUIREMENT NUMBER="24" TITLE="Validación de metadatos de Windows en tiempo de ejecución" RATIONALE="Los metadatos deben cumplir con los requisitos y ser consistentes en todos los orígenes de generación." />
+    <REQUIREMENT NUMBER="25" TITLE="Prueba de comprobación del paquete" RATIONALE="Validación del contenido del paquete de la aplicación para comprobar que sea correcto.">
+      <TEST INDEX="63" NAME="Archivos apropiados para la plataforma" DESCRIPTION="La aplicación no debería instalar archivos que no coincidan con la arquitectura de procesador de destino." EXECUTIONTIME="00h:00m:02s.49ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="76" NAME="Validación del paquete" DESCRIPTION="Las aplicaciones de Silverlight deben pasar la validación del paquete XAP." EXECUTIONTIME="00h:00m:04s.30ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="26" TITLE="Compatibilidad con configuración elevada de ppp" RATIONALE="La aplicación necesita una configuración compatible con ppp para que la UI tenga una buena apariencia con las variadas configuraciones elevadas de ppp de las pantallas." />
+    <REQUIREMENT NUMBER="27" TITLE="Prueba de uso de recursos" RATIONALE="Las tareas en segundo plano de WinJS deben llamar a close() para liberar el recurso." />
+  </REQUIREMENTS>
+  <APPLICATIONS />
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis Type="Template">
+      <AitFile ErrorCode="0" Name="PhoneApp1.dll" Id="0000d7be4c1ad95439915f5e71c2d31947649bfa8e95">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorDllMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute..ctor" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableState" />
+          <AitFeature Name="System.Console" />
+          <AitFeature Name="System.Console.WriteLine" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.Debugger" />
+          <AitFeature Name="System.Diagnostics.Debugger.Break" />
+          <AitFeature Name="System.Diagnostics.Debugger.get_IsAttached" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Enum" />
+          <AitFeature Name="System.Enum.Parse" />
+          <AitFeature Name="System.EventHandler`1" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception.get_Message" />
+          <AitFeature Name="System.Globalization.CultureInfo" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.IO.Stream" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.ReferenceEquals" />
+          <AitFeature Name="System.Reflection.Assembly" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute..ctor" />
+          <AitFeature Name="System.Resources.NeutralResourcesLanguageAttribute" />
+          <AitFeature Name="System.Resources.NeutralResourcesLanguageAttribute..ctor" />
+          <AitFeature Name="System.Resources.ResourceManager" />
+          <AitFeature Name="System.Resources.ResourceManager..ctor" />
+          <AitFeature Name="System.Resources.ResourceManager.GetString" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.GuidAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.GuidAttribute..ctor" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_Assembly" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.UriKind" />
+          <AitFeature Name="System.Windows.Application" />
+          <AitFeature Name="System.Windows.Application..ctor" />
+          <AitFeature Name="System.Windows.Application.LoadComponent" />
+          <AitFeature Name="System.Windows.Application.add_UnhandledException" />
+          <AitFeature Name="System.Windows.Application.get_Current" />
+          <AitFeature Name="System.Windows.Application.get_Host" />
+          <AitFeature Name="System.Windows.Application.get_RootVisual" />
+          <AitFeature Name="System.Windows.Application.set_RootVisual" />
+          <AitFeature Name="System.Windows.ApplicationUnhandledExceptionEventArgs" />
+          <AitFeature Name="System.Windows.Controls.Button" />
+          <AitFeature Name="System.Windows.Controls.Frame" />
+          <AitFeature Name="System.Windows.Controls.Frame.add_Navigated" />
+          <AitFeature Name="System.Windows.Controls.Frame.add_NavigationFailed" />
+          <AitFeature Name="System.Windows.Controls.Frame.remove_Navigated" />
+          <AitFeature Name="System.Windows.Controls.Grid" />
+          <AitFeature Name="System.Windows.Controls.StackPanel" />
+          <AitFeature Name="System.Windows.Controls.TextBlock" />
+          <AitFeature Name="System.Windows.FlowDirection" />
+          <AitFeature Name="System.Windows.FrameworkElement" />
+          <AitFeature Name="System.Windows.FrameworkElement.FindName" />
+          <AitFeature Name="System.Windows.FrameworkElement.set_FlowDirection" />
+          <AitFeature Name="System.Windows.FrameworkElement.set_Language" />
+          <AitFeature Name="System.Windows.Interop.Settings" />
+          <AitFeature Name="System.Windows.Interop.Settings.set_EnableFrameRateCounter" />
+          <AitFeature Name="System.Windows.Interop.SilverlightHost" />
+          <AitFeature Name="System.Windows.Interop.SilverlightHost.get_Settings" />
+          <AitFeature Name="System.Windows.Markup.XmlLanguage" />
+          <AitFeature Name="System.Windows.Markup.XmlLanguage.GetLanguage" />
+          <AitFeature Name="System.Windows.Navigation.JournalEntry" />
+          <AitFeature Name="System.Windows.Navigation.NavigatedEventHandler" />
+          <AitFeature Name="System.Windows.Navigation.NavigatedEventHandler..ctor" />
+          <AitFeature Name="System.Windows.Navigation.NavigationEventArgs" />
+          <AitFeature Name="System.Windows.Navigation.NavigationEventArgs.get_NavigationMode" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventHandler" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventHandler..ctor" />
+          <AitFeature Name="System.Windows.Navigation.NavigationMode" />
+          <AitFeature Name="System.Windows.RoutedEventArgs" />
+          <AitFeature Name="System.Windows.UIElement" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.ApplicationModel.Activation.IActivatedEventArgs" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>
